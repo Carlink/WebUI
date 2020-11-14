@@ -1,0 +1,100 @@
+// COUNT TASKS
+.tooltip-content-ct {
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 51px -12px rgba(0, 0, 0, 0.75);
+
+  & .body {
+    font-size: 22px;
+
+    & span:nth-child(1) {
+      color: var(--v-ap-confirmed-base);
+    }
+    & span:nth-child(2) {
+      color: var(--v-ap-light-gray-base);
+    }
+  }
+
+  & .footer {
+    color: var(--v-ap-confirmed-base);
+  }
+}
+
+// COUNT EVOLUTION
+.tooltip-content-ce {
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 51px -12px rgba(0, 0, 0, 0.75);
+
+  & .head {
+    color: var(--v-ap-confirmed-base);
+    margin-bottom: 5px;
+
+    & ~ .head {
+      margin-top: 10px;
+    }
+  }
+
+  & .body {
+    display: flex;
+    align-items: center;
+    
+    span:nth-child(1) {
+      font-size: 22px;
+      margin-right: 10px;
+      color: var(--v-ap-confirmed-base);
+    }
+    span:nth-child(2) {
+      font-size: 14px;
+      color: var(--v-ap-confirmed-base);
+    }
+  }
+}
+
+// DUPLICATES BY OBJECT
+.tooltip-content-duo {
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 51px -12px rgba(0, 0, 0, 0.75);
+
+  & .body {
+    display: flex;
+    align-items: center;
+
+    span:nth-child(1) {
+      font-size: 22px;
+      margin-right: 10px;
+      color: var(--v-ap-confirmed-base);
+    }
+    span:nth-child(2) {
+      font-size: 14px;
+      color: var(--v-ap-confirmed-base);
+    }
+  }
+}
+
+// DUPLICATES BY USER TYPE
+.tooltip-content-dut {
+  background-color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 51px -12px rgba(0, 0, 0, 0.75);
+
+  & .body {
+    display: flex;
+    align-items: center;
+
+    span:nth-child(1) {
+      font-size: 22px;
+      margin-right: 10px;
+      color: var(--v-ap-dark-blue-base);
+    }
+    span:nth-child(2) {
+      font-size: 14px;
+      color: var(--v-ap-dark-blue-base);
+    }
+  }
+}

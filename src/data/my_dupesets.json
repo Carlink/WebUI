@@ -1,0 +1,175 @@
+{
+  "id": "010a8566-52c4-4add-a64f-5d423c121612",
+  "object": "dupeset",
+  "owner_id": "090e24d3-34c6-49cb-846b-57af9cbff1fe",
+  "created": "2018-11-13T20:20:39+00:00",
+  "modifed": "2018-11-13T20:20:39+00:00",
+  "account_id": "92f3d0f3-a3e9-4f62-9d68-a571df3d84d5",
+  "estimated_seconds_to_complete": 720,
+  "columns": [
+    {
+      "id": "070b5a68-81a6-4772-8831-73ba1e6ceb5d",
+      "name": "required_time",
+      "text": "Required Time",
+      "visible": true
+    },
+    {
+      "id": "170b5a68-81a6-4772-8831-73ba1e6ceb5d",
+      "name": "source",
+      "text": "Source",
+      "visible": true
+    },
+    {
+      "id": "770b5a68-81a6-4772-8831-73ba1e6ceb5d",
+      "name": "origin",
+      "text": "Origin",
+      "visible": true
+    },
+    {
+      "id": "470b5a68-81a6-4772-8831-73ba1e6ceb5d",
+      "name": "cause",
+      "text": "Cause",
+      "visible": true
+    },
+    {
+      "id": "270b5a68-81a6-4772-8831-73ba1e6ceb5d",
+      "name": "name",
+      "text": "Name",
+      "visible": true
+    },
+    {
+      "id": "370b5a68-81a6-4772-8831-73ba1e6ceb5d",
+      "name": "street",
+      "text": "Billing Street",
+      "visible": true
+    },
+    {
+      "id": "570b5a68-81a6-4772-8831-73ba1e6ceb5d",
+      "name": "city",
+      "text": "Billing City",
+      "visible": true
+    }
+  ],
+  "rows": [
+    {
+      "id": "16d6da28-4af3-4a31-9a74-63ea18db47fc",
+      "data": {
+        "required_time": 20,
+        "source": "Lead",
+        "origin": "Marketing",
+        "cause": "Merge Failed",
+        "name": "Dream Folks",
+        "street": "2335 N. Michigan Avenue",
+        "city": "New York"
+      },
+      "merge_failed": true,
+      "automattic": false,
+      "sales_rep": false
+    },
+    {
+      "id": "26d6da28-4af3-4a31-9a74-63ea18db47fc",
+      "data": {
+        "required_time": 20,
+        "source": "Account",
+        "origin": "Rep",
+        "cause": "By Sales Rep",
+        "name": "Johnson & Co",
+        "street": "2335 Michigan Avenue",
+        "city": "New York"
+      },
+      "merge_failed": false,
+      "automattic": false,
+      "sales_rep": true
+    },
+    {
+      "id": "36d6da28-4af3-4a31-9a74-63ea18db47fc",
+      "data": {
+        "required_time": 30,
+        "source": "Account",
+        "origin": "Marketing",
+        "cause": "Automatic",
+        "name": "MicroFirst",
+        "street": "2335 N. Michigan Avenue",
+        "city": "New Jersey"
+      },
+      "merge_failed": false,
+      "automattic": true,
+      "sales_rep": false
+    },
+    {
+      "id": "46d6da28-4af3-4a31-9a74-63ea18db47fc",
+      "data": {
+        "required_time": 30,
+        "source": "Lead",
+        "origin": "Merchant Reg.",
+        "cause": "By Sales Rep",
+        "name": "First Alarm",
+        "street": "2335 N. Michigan Avenue",
+        "city": "Dallas"
+      },
+      "merge_failed": false,
+      "automattic": false,
+      "sales_rep": true
+    },
+    {
+      "id": "56d6da28-4af3-4a31-9a74-63ea18db47fc",
+      "data": {
+        "required_time": 30,
+        "source": "Lead",
+        "origin": "Web Form",
+        "cause": "Automatic",
+        "name": "Dream Folks",
+        "street": "2335 Michigan Avenue",
+        "city": "Austin"
+      },
+      "merge_failed": false,
+      "automattic": true,
+      "sales_rep": false
+    },
+    {
+      "id": "66d6da28-4af3-4a31-9a74-63ea18db47fc",
+      "data": {
+        "required_time": 30,
+        "source": "Account",
+        "origin": "Web Form",
+        "cause": "Automatic",
+        "name": "Johnson & Co",
+        "street": "2335 N. Michigan Avenue",
+        "city": "San Francisco"
+      },
+      "merge_failed": false,
+      "automattic": true,
+      "sales_rep": false
+    }
+  ],
+  "cells": [
+    {
+      "column_id": "070b5a68-81a6-4772-8831-73ba1e6ceb5d",
+      "row_id": "26d6da28-4af3-4a31-9a74-63ea18db47fc"
+    },
+    {
+      "column_id": "170b5a68-81a6-4772-8831-73ba1e6ceb5d",
+      "row_id": "26d6da28-4af3-4a31-9a74-63ea18db47fc"
+    },
+    {
+      "column_id": "770b5a68-81a6-4772-8831-73ba1e6ceb5d",
+      "row_id": "26d6da28-4af3-4a31-9a74-63ea18db47fc"
+    },
+    {
+      "column_id": "470b5a68-81a6-4772-8831-73ba1e6ceb5d",
+      "row_id": "26d6da28-4af3-4a31-9a74-63ea18db47fc"
+    },
+    {
+      "column_id": "270b5a68-81a6-4772-8831-73ba1e6ceb5d",
+      "row_id": "26d6da28-4af3-4a31-9a74-63ea18db47fc"
+    },
+    {
+      "column_id": "370b5a68-81a6-4772-8831-73ba1e6ceb5d",
+      "row_id": "26d6da28-4af3-4a31-9a74-63ea18db47fc"
+    },
+    {
+      "column_id": "570b5a68-81a6-4772-8831-73ba1e6ceb5d",
+      "row_id": "26d6da28-4af3-4a31-9a74-63ea18db47fc"
+    }
+  ]
+}

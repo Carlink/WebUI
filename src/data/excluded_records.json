@@ -1,0 +1,250 @@
+{
+  "id": "010a8566-52c4-4add-a64f-5d423c121612",
+  "object": "dupeset",
+  "owner_id": "090e24d3-34c6-49cb-846b-57af9cbff1fe",
+  "created": "2018-11-13T20:20:39+00:00",
+  "modifed": "2018-11-13T20:20:39+00:00",
+  "account_id": "92f3d0f3-a3e9-4f62-9d68-a571df3d84d5",
+  "estimated_seconds_to_complete": 120,
+  "columns": [
+    {
+      "id": "170b5a68-81a6-4772-8831-73ba1e6ceb5d",
+      "name": "source",
+      "label": "Source",
+      "conflicted": false,
+      "selectable": false,
+      "locked": false
+    },
+    {
+      "id": "070b5a68-81a6-4772-8831-73ba1e6ceb5d",
+      "name": "id",
+      "label": "Primary",
+      "conflicted": false,
+      "selectable": true,
+      "locked": false,
+      "is_primary": true
+    },
+    {
+      "id": "270b5a68-81a6-4772-8831-73ba1e6ceb5d",
+      "name": "name",
+      "label": "Name",
+      "conflicted": true,
+      "selectable": true,
+      "locked": false
+    },
+    {
+      "id": "370b5a68-81a6-4772-8831-73ba1e6ceb5d",
+      "name": "street",
+      "label": "Billing Street",
+      "conflicted": true,
+      "selectable": true,
+      "locked": false
+    },
+    {
+      "id": "470b5a68-81a6-4772-8831-73ba1e6ceb5d",
+      "name": "lead_source",
+      "label": "Lead Source",
+      "conflicted": false,
+      "selectable": false,
+      "locked": true
+    },
+    {
+      "id": "770b5a68-81a6-4772-8831-73ba1e6ceb5d",
+      "name": "RecordType",
+      "label": "Record Type",
+      "conflicted": false,
+      "selectable": false,
+      "locked": true
+    },
+    {
+      "id": "570b5a68-81a6-4772-8831-73ba1e6ceb5d",
+      "name": "state",
+      "label": "Billing State",
+      "conflicted": false,
+      "selectable": false,
+      "locked": false
+    },
+    {
+      "id": "31da82be-6bc9-4417-ba1a-e70e05f645bc",
+      "name": "description",
+      "label": "Description",
+      "conflictable": true,
+      "locked": false,
+      "selectable": false,
+      "combine": true
+    },
+    {
+      "id": "670b5a68-81a6-4772-8831-73ba1e6ceb5d",
+      "name": "phone",
+      "label": "Phone Number",
+      "conflicted": true,
+      "selectable": false,
+      "locked": false
+    },
+    {
+      "id": "962a817e-9b2e-4fd6-ba8c-72c4df3578a1",
+      "name": "email",
+      "label": "Email",
+      "conflictable": true,
+      "locked": false,
+      "selectable": false
+    },
+    {
+      "id": "21a3e634-1dcd-4aa9-a9cb-bc81bf343bf7",
+      "name": "website",
+      "label": "Website",
+      "conflictable": true,
+      "locked": false,
+      "selectable": false
+    }
+  ],
+  "rows": [
+    {
+      "id": "16d6da28-4af3-4a31-9a74-63ea18db47fc",
+      "locked": true,
+      "data": {
+        "source": "Lead",
+        "name": "First Alarm & Co",
+        "street": "2335 N. Michigan Avenue",
+        "lead_source": "Exposition",
+        "state": "New York",
+        "RecordType": "Marketplace",
+        "phone": "+1-213-241-6202",
+        "description": "First Alarm on Michigan Ave.",
+        "email": "first@alrm.co",
+        "website": "firstalrm.co"
+      }
+    },
+    {
+      "id": "26d6da28-4af3-4a31-9a74-63ea18db47fc",
+      "locked": false,
+      "never_merge_disabled": true,
+      "data": {
+        "source": "Account",
+        "name": "First Alarm",
+        "street": "2335 N. Michigan Avenue",
+        "lead_source": "Exposition",
+        "state": "New York",
+        "RecordType": "Marketplace",
+        "phone": "1213-241-6201",
+        "description": "",
+        "email": "first@alrm.co",
+        "website": "firstalrm.co"
+      }
+    },
+    {
+      "id": "36d6da28-4af3-4a31-9a74-63ea18db47fc",
+      "locked": false,
+      "never_merge_disabled": true,
+      "data": {
+        "source": "Account",
+        "name": "First Alarm",
+        "street": "2335 Michigan Avenue",
+        "lead_source": "",
+        "state": "New York",
+        "RecordType": "Marketplace",
+        "phone": "+1-213-241-6202",
+        "description": "",
+        "email": "first@alrm.co",
+        "website": "firstalrm.co"
+      }
+    },
+    {
+      "id": "46d6da28-4af3-4a31-9a74-63ea18db47fc",
+      "locked": false,
+      "data": {
+        "source": "Lead",
+        "name": "FirstAlarm",
+        "street": "2335 N. Michigan Avenue",
+        "lead_source": "Trade Show",
+        "state": "New York",
+        "RecordType": "Marketplace",
+        "phone": "+1-213-241-6201",
+        "description": "",
+        "email": "first@alrm.co",
+        "website": "firstalrm.co"
+      }
+    },
+    {
+      "id": "56d6da28-4af3-4a31-9a74-63ea18db47fc",
+      "locked": true,
+      "data": {
+        "source": "Lead",
+        "name": "1st Alarm",
+        "street": "2335 N. Michigan Avenue",
+        "lead_source": "Trade Show",
+        "state": "New York",
+        "RecordType": "Marketplace",
+        "phone": "+1-213-241-6201",
+        "description": "Another first alarm",
+        "email": "first@alrm.co",
+        "website": "firstalrm.co"
+      }
+    },
+    {
+      "id": "66d6da28-4af3-4a31-9a74-63ea18db47fc",
+      "locked": false,
+      "action": "never",
+      "data": {
+        "source": "Account",
+        "name": "1st Alarm & Co",
+        "street": "2335 N. Michigan Avenue",
+        "lead_source": "",
+        "state": "New York",
+        "RecordType": "Enterprise Marketplace",
+        "phone": "1-213-241-6201",
+        "description": "",
+        "email": "first@alrm.co",
+        "website": "firstalrm.co"
+      }
+    }
+  ],
+  "cells": [
+    {
+      "column_id": "270b5a68-81a6-4772-8831-73ba1e6ceb5d",
+      "row_id": "26d6da28-4af3-4a31-9a74-63ea18db47fc",
+      "selected": true
+    },
+    {
+      "column_id": "370b5a68-81a6-4772-8831-73ba1e6ceb5d",
+      "row_id": "56d6da28-4af3-4a31-9a74-63ea18db47fc",
+      "selected": true
+    },
+    {
+      "column_id": "670b5a68-81a6-4772-8831-73ba1e6ceb5d",
+      "row_id": "46d6da28-4af3-4a31-9a74-63ea18db47fc",
+      "selected": true
+    },
+    {
+      "column_id": "962a817e-9b2e-4fd6-ba8c-72c4df3578a1",
+      "row_id": "26d6da28-4af3-4a31-9a74-63ea18db47fc",
+      "selected": true
+    },
+    {
+      "column_id": "070b5a68-81a6-4772-8831-73ba1e6ceb5d",
+      "row_id": "26d6da28-4af3-4a31-9a74-63ea18db47fc",
+      "selected": true
+    }
+  ],
+  "final_record": {
+    "id": "26d6da28-4af3-4a31-9a74-63ea18db47fc",
+    "source": "Account",
+    "name": "First Alarm",
+    "street": "2335 N. Michigan Avenue",
+    "lead_source": "Exposition",
+    "state": "New York",
+    "RecordType": "Marketplace",
+    "phone": "+1-213-241-6201",
+    "email": "first@alrm.co",
+    "website": "firstalrm.co",
+    "description": "First Alarm on Michigan Ave.; Another first alarm"
+  },
+  "final_record_editable_cells": [
+    "name",
+    "street",
+    "state",
+    "phone"
+  ],
+  "action": "merge",
+  "bonus_points_countdown_seconds": 100
+}

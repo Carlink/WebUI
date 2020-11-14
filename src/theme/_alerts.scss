@@ -1,0 +1,37 @@
+.alert-box:hover {
+  transition: 0.5s;
+}
+
+.alert-box {
+  text-shadow: none;
+  line-height: 20px;
+  word-spacing: 2px;
+}
+
+.alert:before {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: calc(100% - 44px);
+  border-left: 1px solid;
+  border-right: 2px solid;
+  left: 0;
+  top: 50%;
+  transform: translate(0, -50%);
+  height: 100%;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.alert-sidebar:before {
+    content: '';
+    position: absolute;
+    width: 0px;
+    border-right: 2px solid;
+    left: 0;
+    height: 60%;
+}
+
+.alert-sidebar {
+    color: $white;
+}

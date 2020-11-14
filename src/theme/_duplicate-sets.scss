@@ -1,0 +1,38 @@
+.dupe_grid_bg {
+    background-color: #f3f2f2;
+    border-radius: 5px;
+    margin: auto;
+}
+
+.header {
+    position: relative;    
+}
+
+.v-btn:not(.v-btn--round).v-size--default {
+    &.full-height {
+        height: 48px;
+    }
+}
+
+.duplicates-tab {
+    .v-item-group.v-tabs-bar {
+        position: absolute;
+        right: 8px;
+        top: 20px;
+
+        @media (max-width: 1024px) {
+            position: relative;
+            right: 0;
+            top: 0;
+        }
+
+        .v-tab {
+            font-weight: 600;
+            text-transform: inherit;
+        }
+
+        .v-slide-group__content {
+            white-space: normal;
+        }
+    }
+}

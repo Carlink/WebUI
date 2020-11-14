@@ -1,0 +1,134 @@
+{
+  "team_points": [
+    {
+      "name": "Jeanette Carson",
+      "rank": 1,
+      "self": true,
+      "points": "250"
+    },
+    {
+      "name": "Leila Sparks",
+      "rank": 2,
+      "self": true,
+      "points": "150"
+    },
+    {
+      "name": "John Smith",
+      "rank": 3,
+      "self": true,
+      "points": "80"
+    },
+    {
+      "name": "Ruth Reid",
+      "rank": 4,
+      "self": true,
+      "points": "60"
+    },
+    {
+      "name": "Louis Barton",
+      "rank": 5,
+      "self": true,
+      "points": "50"
+    },
+    {
+      "name": "Laura Alvarez",
+      "rank": 6,
+      "self": true,
+      "points": "40"
+    },
+    {
+      "name": "Silver Street",
+      "rank": 7,
+      "self": true,
+      "points": "40"
+    },
+    {
+      "name": "Silver Street 2",
+      "rank": 8,
+      "self": true,
+      "points": "30"
+    }
+  ],
+  "person_rank": [
+    {
+      "name": "Jeanette Carson",
+      "rank": 1,
+      "self": true,
+      "points": "250"
+    },
+    {
+      "name": "Leila Sparks",
+      "rank": 2,
+      "self": true,
+      "points": "150"
+    },
+    {
+      "name": "John Smith",
+      "rank": 3,
+      "self": true,
+      "points": "80"
+    },
+    {
+      "name": "Ruth Reid",
+      "rank": 4,
+      "self": true,
+      "points": "60"
+    },
+    {
+      "name": "Louis Barton",
+      "rank": 5,
+      "self": true,
+      "points": "50"
+    },
+    {
+      "name": "Laura Alvarez",
+      "rank": 6,
+      "self": true,
+      "points": "40"
+    }
+  ],
+  "team_rank": [
+    {
+      "name": "SUNSHINE",
+      "rank": 1,
+      "own_team": true,
+      "points": "250"
+    },
+    {
+      "name": "Tesma",
+      "rank": 2,
+      "own_team": true,
+      "points": "150"
+    },
+    {
+      "name": "Clickup",
+      "rank": 3,
+      "own_team": true,
+      "points": "80"
+    },
+    {
+      "name": "Mockupdeal",
+      "rank": 4,
+      "own_team": true,
+      "points": "60"
+    },
+    {
+      "name": "StandFord",
+      "rank": 5,
+      "own_team": true,
+      "points": "50"
+    },
+    {
+      "name": "Grey Line",
+      "rank": 6,
+      "own_team": true,
+      "points": "40"
+    },
+    {
+      "name": "Silver Street",
+      "rank": 7,
+      "own_team": true,
+      "points": "40"
+    }
+  ]
+}

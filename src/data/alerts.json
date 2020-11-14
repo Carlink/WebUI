@@ -1,0 +1,28 @@
+[
+  {
+    "name": "Jon Doe",
+    "status": "created",
+    "totalDuplicates": 30
+  },
+  {
+    "name": "Bob Smith",
+    "status": "imported",
+    "totalDuplicates": 50
+  },
+  {
+    "name": null,
+    "status": null,
+    "image": "robot.png",
+    "recommendations": "Duplicates on Leads increased with 20% over the past week. Our bot recommends you adapt your Match Criteria."
+  },
+  {
+    "name": "Alex Go.",
+    "status": "created",
+    "totalDuplicates": 30
+  },
+  {
+    "name": "Debra Wilson",
+    "status": "imported",
+    "totalDuplicates": 50
+  }
+]

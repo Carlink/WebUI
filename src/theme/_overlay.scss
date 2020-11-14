@@ -1,0 +1,81 @@
+.records-container {
+  position: relative;
+  margin-top: auto;
+  margin-bottom: auto;
+
+  .content-wrapper {
+    margin: auto;
+  }
+
+  .container {
+    &.recommendation-container{
+      max-width: 464px;
+    }
+  }
+
+  .v-data-table-header {
+    background-color: var(--v-ap-light-bg-base);
+  }
+
+  tr:not(.final-row),
+  thead {
+    th,
+    td {
+      position: relative;
+      height: 32px !important;
+      padding: 0px 16px;
+      font-size: 13px !important;
+    }
+  }
+
+  .excluded-records {
+    td {
+      background-color: rgb(1, 183, 242, 0.2);
+    }
+    .checkbox-wrapper {
+      .v-input {
+        max-width: 24px;
+      }
+
+      .v-input--selection-controls {
+        padding: 0px !important;
+        margin: 0px !important;
+      }
+    }
+  }
+
+  .final-row {
+    .result {
+      transform: translateY(-50%);
+    }
+    td {
+      border-top: 3px solid var(--v-primary-base);
+    }
+  }
+
+  .action-btn {
+    position: absolute;
+    top: 50%;
+
+    &.prev {
+      left: 10px;
+    }
+    &.next {
+      right: 10px;
+    }
+  }
+}
+.overlay-row {
+  background-color: rgba(34, 73, 121, 0.8);
+  cursor: pointer;
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  height: 48px;
+  width: 100%;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 13px;
+  line-height: 12px;
+  letter-spacing: 0px;
+}

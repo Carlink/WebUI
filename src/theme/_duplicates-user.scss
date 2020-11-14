@@ -1,0 +1,21 @@
+.duplicates-container {
+  .filters {
+    border: 1px solid var(--v-ap-light-gray-base);
+    border-radius: 3px;
+  }  
+}
+
+.dup-evolution-container {
+  .legend-item {
+    display: flex;
+    align-items: center;
+
+    .legend-item-color {
+      height: 12px;
+      width: 12px;
+    }
+    .legend-label {
+      font-size: 13px;
+    }
+  }
+}

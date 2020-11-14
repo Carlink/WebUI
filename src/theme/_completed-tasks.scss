@@ -1,0 +1,56 @@
+.completed-tasks {
+  
+  .width-100 {
+    width: 100%;
+  }
+  .my-table {
+    .v-data-table-header {
+      background-color: var(--v-ap-light-bg-base);
+
+      span {
+        color: var(--v-ap-dark-gray-base);
+      }
+    }
+    .v-data-table__expanded__content {
+      box-shadow: unset !important;
+    }
+    .width-x {
+      width: 100px;
+    }
+  }
+  .tasks-graph-container {
+    position: relative;
+    .graph-wrapper {
+      position: relative;
+      width: 100%;
+      > div {
+        position: relative;
+        max-height: 232px;
+        max-width: 232px;
+      }
+    }
+    .legend-item {
+      display: flex;
+      align-items: center;
+      min-width: 132px;
+  
+      .legend-item-color {
+        height: 12px;
+        width: 12px;
+      }
+      .legend-label {
+        font-size: 13px;
+      }
+    }
+  }
+  .filter-button {
+    position: absolute;
+    top: 15px;
+    left: 0;
+    z-index: 1;
+  }
+  .v-data-table td,
+  .v-data-table th {
+    padding: 0 5px !important;
+  }
+}

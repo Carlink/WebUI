@@ -1,0 +1,78 @@
+.points-tab {
+    .v-item-group.v-tabs-bar {
+        position: absolute;
+        right: 8px;
+        top: 20px;
+
+        @media (max-width: 1024px) {
+            position: relative;
+            right: 0;
+            top: 0;
+        }
+
+        .v-tab {
+            background: $light-gray;
+            font-weight: 600;
+            text-transform: inherit;
+
+            &.people {
+                border-top-left-radius: 40px;
+                border-bottom-left-radius: 40px;
+            }
+
+            &.team {
+                border-top-right-radius: 40px;
+                border-bottom-right-radius: 40px;
+            }
+
+            &.v-tab--active {
+                background: $dark-gray;
+                color: white;
+            }
+        }
+
+        .v-slide-group__content {
+            white-space: normal;
+
+            .v-tabs-slider {
+                display: none;
+            }
+        }
+    }
+}
+
+.team-list {
+    .team-details {
+        padding: 2px 0;
+    }
+
+    .team-member {
+        &__position {
+            color: $gray;
+            margin: 8px 0;
+        }
+
+        &__name {
+            color: $dark-blue;
+            margin: 8px 0;
+        }
+
+        &__total {
+            color: $dark-blue;
+            font-weight: 900;
+            border-width: 2px;
+            border-color: $dark-blue;
+        }
+
+        &__rank {
+            color: $dark-gray;
+            margin: 8px 0;
+        }
+    }
+
+    .v-list-item {
+        line-height: 20px;
+        min-height: inherit;
+        padding: 0;
+    }
+}

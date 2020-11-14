@@ -1,0 +1,23 @@
+.count-tasks {
+  .v-slide-group__prev {
+    display: none !important;
+  }
+  .graph-width {
+    width: 92% !important;
+  }
+}
+
+.count-evolution-container {
+  .legend-item {
+    display: flex;
+    align-items: center;
+
+    .legend-item-color {
+      height: 12px;
+      width: 12px;
+    }
+    .legend-label {
+      font-size: 13px;
+    }
+  }
+}

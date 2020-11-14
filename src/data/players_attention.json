@@ -1,0 +1,47 @@
+[
+  {
+    "name": "Wade Fox",
+    "team": "Team 5",
+    "percentage": 11
+  },
+  {
+    "name": "Randall Cooper",
+    "team": "Team 5",
+    "percentage": 23
+  },
+  {
+    "name": "Dwight Mccoy",
+    "team": "Team 16",
+    "percentage": 48
+  },
+  {
+    "name": "Darrell Henry",
+    "team": "Team 2",
+    "percentage": 59
+  },
+  {
+    "name": "Debra Wilson",
+    "team": "Team 9",
+    "percentage": 82
+  },
+  {
+    "name": "Leona Jenkins",
+    "team": "Team 14",
+    "percentage": 70
+  },
+  {
+    "name": "Christopher Cain",
+    "team": "Team 7",
+    "percentage": 85
+  },
+  {
+    "name": "Darrell Henry 1",
+    "team": "Team 3",
+    "percentage": 75
+  },
+  {
+    "name": "Debra Wilson 1",
+    "team": "Team 1",
+    "percentage": 65
+  }
+]
